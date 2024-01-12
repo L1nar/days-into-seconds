@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(129, 121, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.days {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: thistle;
+    font-family: 'Indie Flower', cursive;
+}
+
+.btn {
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: rgb(46, 128, 236);
+    border: 3px solid rgb(0, 89, 255);
+    padding: 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.seconds {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: thistle;
+    font-family: 'Indie Flower', cursive;
+}
